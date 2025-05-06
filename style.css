@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #9DC7FF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.team-member {
+    width: 100px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.call-to-act {
+    text-align: center;
+    padding: 20px;
+}
+
+.call-to-act button {
+    padding: 10px 20px;
+    background-color: #55AAD4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    height: 20%;
+    background-color: #9DC7FF;
+}
